@@ -13,8 +13,8 @@ const gradePoints = {
 // adds new row
 function addRow() {
     const newRow = document.createElement("tr");
-
-    newRow.innerHTML = `
+    newRow.innerHTML = 
+    `
         <td><input type="checkbox" class="selectRow"></td>
         <td><input type="text" placeholder="Course"></td>
         <td>
