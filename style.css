@@ -94,4 +94,25 @@ body {
     color: #ffcc80;
     text-align: center;
   }
+
+  @media(max-width: 768px)
+  {
+    .container
+    {
+      width: auto;
+    }
+    table
+    {
+      table-layout: fixed;
+    }
+    thead th 
+    {
+      font-size: 11px;
+    }
+    .button-bar
+    {
+      font-size: 0.8rem;
+    }
+  }
+
   
